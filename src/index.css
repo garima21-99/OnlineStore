@@ -1,13 +1,112 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*
+{
+  box-sizing: border-box;
+
+}
+body
+{
+  font-size: 62.4%;
+}
+.shop
+{
+  display: inline-block;
+  font-size: 1.4rem;
+  margin: 1rem 4rem 2rem 5rem;
+  cursor: pointer;
+}
+button
+{
+  border: none;
+  font-size: 1.3rem;
+  background-color: aliceblue;
+  font-weight: bolder;
+  
+}
+.Shophub
+{
+  float: left;
+  font-size: 2rem;
+ font-weight: bolder;
+  
+}
+span{
+  color: red;
+}
+.navbar
+{
+  background-color: aliceblue;
+  top: 0;
+  width: 100%;
+  position: fixed;
+}
+button:hover{
+  color: red;
+}
+/**************************fILTER*********************/
+.area-option
+{
+justify-content: center;
+width: 15rem;
+height: 2rem;
+font-size: 1rem;
+}
+#area
+{
+font-size: 1.2rem;
+margin-right: 4rem;
+margin-left: 4rem;
+
+}
+.area-filter
+{
+  font-size: 1rem;
+}
+#date
+{
+  font-size: 1.2rem;
+  margin-left: 20rem;
+}
+.date-container
+{
+  margin-top: 3rem;
+}
+#date
+{
+margin: 2rem 4rem 2rem 10rem;
+}
+/**********************Shoplist********************************/
+.shoplist-container
+{
+  border-style: solid;
+ margin: 5rem 3rem 2rem 4rem;
+ display: inline-block;
+ width: 28rem;
+ height: 16rem;
+ border-radius: 1.2rem;
+ background-color: rgb(255, 239, 213);
+}
+form{
+  margin-top: 10rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.date
+{
+  display: inline-block;
+ margin-right: 3rem;
+ margin-left: 1rem;
+font-size: 1.3rem;
+
+ 
+ 
+}
+.Shop-name,.shop-category,.area
+
+{
+  font-size: 1.3rem;
+  text-align: center;
+}
+.close-btn
+{
+  font-size: 1.6rem;
+ cursor: pointer;
 }
